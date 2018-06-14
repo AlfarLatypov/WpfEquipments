@@ -40,7 +40,7 @@ namespace WpfEquipments.View
         private void lvModels_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             TablesModel test = (TablesModel)((ListView)sender).SelectedItem; 
-             gvData.DataContext = test; 
+             dvData.DataContext = test; 
         }
     }
 }
