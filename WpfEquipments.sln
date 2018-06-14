@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfEquipments", "WpfEquipments\WpfEquipments.csproj", "{C1FB61DD-8911-4548-A948-E0F561AE687A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfEquipments.DAL", "WpfEquipments.DAL\WpfEquipments.DAL.csproj", "{C3A02557-79A2-407A-AFC8-90F860DD53E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1FB61DD-8911-4548-A948-E0F561AE687A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FB61DD-8911-4548-A948-E0F561AE687A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FB61DD-8911-4548-A948-E0F561AE687A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FB61DD-8911-4548-A948-E0F561AE687A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A02557-79A2-407A-AFC8-90F860DD53E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A02557-79A2-407A-AFC8-90F860DD53E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A02557-79A2-407A-AFC8-90F860DD53E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A02557-79A2-407A-AFC8-90F860DD53E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

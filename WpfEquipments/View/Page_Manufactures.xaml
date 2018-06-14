@@ -1,0 +1,34 @@
+﻿<Page x:Class="WpfEquipments.View.Page_Manufactures"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfEquipments.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="Page_Manufactures">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Label FontSize="14" Grid.Row="0" Content="Page_Manufactures"></Label>
+
+        <ListView x:Name="lvManufactures" Grid.Row="1">
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn Header="ID" DisplayMemberBinding
+                                        ="{Binding Path=intManufacturerID }"></GridViewColumn>
+                        <GridViewColumn Header="Name" DisplayMemberBinding
+                                        ="{Binding Path=strName }"></GridViewColumn>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+            
+        </ListView>
+        
+    </Grid>
+</Page>
